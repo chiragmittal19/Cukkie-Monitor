@@ -1,0 +1,94 @@
+# =============================================================================
+# Dependencies & Package Managers
+# =============================================================================
+node_modules/
+.pnp/
+.pnp.js
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================================================
+# Build & Distribution Artifacts
+# =============================================================================
+dist/
+dist-ssr/
+build/
+*.local
+
+# =============================================================================
+# Environment & Secrets (Never commit secrets!)
+# =============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.env
+!.env.example
+!.env.template
+
+# =============================================================================
+# Testing & Code Coverage
+# =============================================================================
+coverage/
+*.lcov
+.nyc_output/
+
+# =============================================================================
+# Cache & Temporary Files
+# =============================================================================
+.eslintcache
+.stylelintcache
+.prettiercache
+.turbo/
+.cache/
+tmp/
+temp/
+
+# =============================================================================
+# Editor & IDE Files
+# =============================================================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================================================================
+# AI Tooling & Local Assistant Files
+# =============================================================================
+.claude/
+.cursor/
+.agents/
+.gemini/
